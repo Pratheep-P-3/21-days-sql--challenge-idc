@@ -31,9 +31,3 @@ I’ll be updating this table as the challenge progresses!
 
 ---
 
-## 💡 Sample Query
-```sql
--- Day 1 Challenge: List all unique hospital services
-SELECT DISTINCT service_name
-FROM services_weekly;
-
