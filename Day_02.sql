@@ -17,7 +17,7 @@ FROM SERVICES_WEEKLY
 WHERE patients_request > 100;
 
 --Daily Challenge
-SELECT name
+SELECT patient_id, name, age,satisfaction score
 FROM patients
 WHERE service = 'surgery' AND satisfaction < 70;
 
